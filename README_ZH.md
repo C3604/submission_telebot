@@ -53,7 +53,7 @@ source ./telebot/bin/activate
 pip install -r requirements.txt
 ```
 2. 修改 `config.yml` 文件（或者配置环境变量），认真阅读注释并填入正确的配置
-3. 运行 `source ./venv/bin/activate && nohup python main.py >/dev/null 2>&1 &` 启动服务
+3. 运行 `source ./telebot/bin/activate && nohup python main.py >/dev/null 2>&1 &` 启动服务
 
 
 ## 指令
